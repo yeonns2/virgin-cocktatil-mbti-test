@@ -1,0 +1,4 @@
+@keyframes slide {
+    0% {right: 100px;}
+    100%{right: 3200px;}
+}
