@@ -1,100 +1,143 @@
 const qnaList = [
   {
-    q: '1. 이성 사이에 진정한 친구는 있다, 없다?',
+    q: '칵테일이라는 단어를 들으면 무슨 생각이  떠오르나요?',
     a: [
-      { answer: 'a. 이성 사이에 친구가 어딨어? 절대 없어', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 친구 있지, 절대 이성으로만 안 보일뿐', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
-      { answer: 'c. 난 잘 모르겠어..', type: ['sheep', 'pig' ] },
-    ]
+      { answer: '각양각색 무지개빛 화려한', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: '중후한 느낌의 투명한 갈색빛', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: '노랑, 주황, 파랑같은 밝은 빛깔의 은은한', type: ['sheep', 'pig' ] },
+    ],
+    tmi : '그거 아시나요? “바베이도스 서프라이즈” 라는 칵테일은 무지개빛 칵테일이랍니다.'
+    
   },
   {
-    q: '2. 좋아하는 사람이 생겨 연락하고자 한다 ',
+    q: '기분좋은 하루였어요. 오늘 저녁에는 아주 친한 친구를 우리 집에 초대해 칵테일을 대접하기로 했거든요.',
     a: [
-      { answer: 'a. 바로 먼저 연락한다.', type: ['mouse', 'rabbit', 'tiger', 'monkey'] },
-      { answer: 'b. 언제 연락할지, 어떻게 말할지 심사숙고하여 연락한다.', type: ['cow', 'horse', 'snake', 'dog'] },
-      { answer: 'c. 상대방에게 먼저 연락 올 때까지 기다린다.', type: ['sheep', 'dragon', 'chick', 'pig'] },
-    ]
+       {answer: '다음'}
+    ],
+    tmi :'그거 아세요? 어떤 아역배우가 칵테일파티에서 음료를 먹고 싶어하자 바텐더가 특별히 제작한 무알콜 칵테일이 있답니다.'
   },
   {
-    q: '3. 당신의 고백 스타일은?',
+    q: '그러던 도중 전화가 왔어요! 이 친구도 친한 친구인데, 오늘 같이 보자고 하면 좋을 것 같아요. 그런데 이 친구는 술을 잘 못 먹는 친구에요. 어떻게 말할까요?',
     a: [
-      { answer: 'a. 호감이 보이면 바로 고백한다', type: ['cow', 'rabbit', 'tiger', 'dog', 'monkey'] },
-      { answer: 'b. 상대방이 고백할 때까지 기다린다', type: ['sheep', 'chick', 'pig'] },
-      { answer: 'c. 완벽한 분위기, 완벽한 타이밍에서 고백한다.', type: ['mouse', 'horse', 'snake', 'dragon'] }
-    ]
+      { answer: '야, 칵테일 별로 안 세니까 그냥 마셔', type: ['cow', 'rabbit', 'tiger', 'dog', 'monkey'] },
+      { answer: '(바로 수긍하며) 좋아! 그럼 너를 위해서는 버진 칵테일을 만들어줄게', type: ['sheep', 'chick', 'pig'] },
+    ],
+    tmi: '그거 아시나요? 버진 칵테일은 무알콜 칵테일을 의미해요. 생각보다 엄청 맛있답니다!'
   },
   {
-    q: '4. 호감가는 고백 멘트를 고른다면?',
+    q: '당신의 친구들이 당신의 집에 놀러와서 레시피를 보여주며 이런 칵테일을 만들어 달라고 합니다. 이때 당신의 반응은?',
     a: [
-      { answer: 'a. 박력 그 자체, "야 나랑 사귀자" ', type: ['cow', 'tiger', 'dragon' ] },
-      { answer: 'b. 섬세한 "나 너 많이 좋아해, 나랑 사귈래?" ', type: ['sheep', 'dog', 'monkey', 'chick', 'pig' ] },
-      { answer: 'c. 센스있는 "우리 내일은 연인으로 만날까요" ', type: ['mouse', 'rabbit', 'horse', 'snake' ] },
-    ]
+      { answer: '최대한 많이 넣는 게 좋지! 이왕이면 집에 있는 재료들까지 더 넣어서 만든다.', type: ['cow', 'tiger', 'dragon' ] },
+      { answer: '레시피는 꼭꼭 지키되 더이상 많이 넣지는 않는다." ', type: ['sheep', 'dog', 'monkey', 'chick', 'pig' ] },
+      { answer: '정해진 것이 어딨어! 내가 싫어하는 재료는 빼고 칵테일을 만든다." ', type: ['mouse', 'rabbit', 'horse', 'snake' ] },
+    ],
+    tmi :'그거 아시나요? 칵테일 맨 위에 올리는 장식을 가니쉬라고 불러요. 이 장식 하나에 맛이 변하곤 한답니다!'
   },
   {
-    q: '5. 오늘 연인과 첫 데이트 하는 날이다. 첫 날 허용할 수 있는 스킨십의 범위는?',
+    q: '이런, 친구의 부탁을 받고 칵테일을 만들려고 냉장고를 확인해 봤는데 재료들이 다 상해버렸네요. 주스들은 너무 금방 상해서 문제죠',
     a: [
-      { answer: 'a. 쑥스러워.. 손 잡기 정도??', type: ['cow', 'sheep', 'dog', 'dragon', 'chick' ] },
-      { answer: 'b. 요즘 시대가 어느 때인데, 가벼운 뽀뽀까지 가능이야', type: ['mouse', 'rabbit', 'horse', 'pig']},
-      { answer: 'c. 어차피 내 연인인데 왜?? 모든 스킨십 다 돼!', type: ['tiger', 'snake', 'monkey'] },
-    ]
+      { answer: '가만 보자, 우선 출발하기 전에 내가 뭐를 가지고 있는지 뭐를 사야 하는지 따져 보자.', type: ['cow', 'sheep', 'dog', 'dragon', 'chick' ] },
+      { answer: '일단 친구가 기다리고 있으니까 빨리 대형 마트로 출발해!', type: ['mouse', 'rabbit', 'horse', 'pig']},
+    ],
+    tmi : '그거 아시나요? 얼음 하나만 신중히 골라도 칵테일의 질이 많이 달라진답니다. 편의점에서 파는 큰 덩어리의 돌얼음을 추천해요.'
+    
+  },
+  {
+    q: '대형 마트에 도착했어요. 친구가 부탁한 칵테일은 생과일을 직접 손질해서 넣어도 되고, 그냥 주스를 써도 된답니다. 이 친구들은 어차피 칵테일에 익숙하지 않아요. 그래서 아무리 좋은 재료를 써도 큰 차이를 느끼지 못할지도 몰라요. 어떻게 할까요?',
+    a: [
+      { answer: '친구 기준 말고 내 기준에서 더 맛있는 음료를 먹어야해. 생과일을 사자.', type: ['cow', 'sheep', 'dog', 'dragon', 'chick' ] },
+      { answer: '잘 모르는데 괜찮을거야. 그냥 과일 주스를 사자', type: ['mouse', 'rabbit', 'horse', 'pig']},
+    ],
+    tmi : '그거 아시나요? 대체제를 사용할 때마다 생각보다 맛이 드라마틱하게 바뀐답니다.'
+    
   },
 
   {
-    q: '6. 기념일이 다가온다. 당신은 어떻게 할 것인가? (ex - 100, 200일)',
+    q: '마트를 돌았는데 내가 구하려는 재료가 없어요. (파인애플 주스가 도대체 어디 있는거지..)',
     a: [
-      { answer: 'a. 무슨 기념일이야, 그냥 평소처럼 해', type: ['dragon', 'chick', 'pig' ] },
-      { answer: 'b. 맛있는 밥이나 사줄까? 아니면 꽃이라도?', type: ['mouse', 'rabbit', 'horse', 'dog' ] },
-      { answer: 'c. 이미 깜짝 이벤트 다 준비해놨어', type: ['cow', 'sheep', 'tiger', 'snake', 'monkey' ] },
+      { answer: '그냥 다른 칵테일을 만들어준다고 해야겠다.', type: ['dragon', 'chick', 'pig' ] },
+      { answer: '파인애플 주스는 없지만 쿨피스같은 대체제를 찾아야겠어.', type: ['mouse', 'rabbit', 'horse', 'dog' ] },
+      { answer: '아직 포기하긴 일러.. 한 두세군데만 더 가	보자', type: ['cow', 'sheep', 'tiger', 'snake', 'monkey' ] },
+      { answer: '이 동네를 다 긁어서라도 어떻게든 찾겠어.', type: ['mouse', 'rabbit', 'horse', 'pig']},
+    ],
+    tmi :'그거 아시나요? 광진구의 편의점과 대형마트 30 군데 중에서 생과일 파인애플주스를 판매하는 곳은 딱 4 군데랍니다.'
+  },
+  {
+    q: '휴, 어쨌든 동네 한 바퀴를 돌았네요. 다시 집에 들어가야겠어요.',
+    a: [
+      { answer: '친구가 이렇게 고생한 것을 알아줘야할텐데!', type: ['cow', 'sheep', 'pig' ] },
+      { answer: '그럴수도 있지 뭘, 내가 초대해놓고.', type: ['tiger', 'dragon', 'chick' ] },
+      
     ]
   },
   {
-    q: '7. 연인이 오늘 머리를 바꾸고 옷도 새로 샀다',
+    q: '비가 추적추적 오기 시작하네요. 양손에는 재료가 한가득. 뭐 맞을만하긴 한데, 걸어 갈거에요?',
     a: [
-      { answer: 'a. 눈치 못 채고 그냥 있는다', type: ['cow', 'sheep', 'pig' ] },
-      { answer: 'b. 눈치는 채나 말은 꺼내지 않는다', type: ['tiger', 'dragon', 'chick' ] },
-      { answer: 'c. "오 대박 오늘 머리도 바꾸고 옷도 새로 샀네?"라고 하며 단번에 눈치챈다', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey' ] },
+      { answer: '아, 진짜 무거운거 들고 비도 오는데 택시 타자.', type: ['mouse', 'dragon', 'chick' ] },
+      { answer: '조금 멀어도 돈도 많이 썼는데 걸어가자.', type: ['rabbit', 'tiger', 'horse', 'snake', 'dog', 'monkey' ] },
+      
     ]
   },
   {
-    q: '8. 연인이 데이트가 끝난 후, 집에 데려다 달라고 한다',
+    q: '집에 도착해서 재료들을 주섬주섬, 친구들을 보니 더 맛있는 칵테일과 멋진 모습을 보여주고 싶은걸요.',
     a: [
-      { answer: 'a. 각자 만났던 장소에서 헤어진다.', type: ['mouse', 'dragon', 'chick' ] },
-      { answer: 'b. 연인이 살고 있는 집의 역이나 정류장까지 데려다준다.', type: ['rabbit', 'tiger', 'horse', 'snake', 'dog', 'monkey' ] },
-      { answer: 'c. 집 앞까지 데려다준다.', type: ['cow', 'sheep', 'pig' ] },
+      {answer:'다음'}
     ]
   },
   {
-    q: '9. 연인에게 하루종일 연락이 안 온다..',
+    q: '드디어 만들려고 하는 칵테일은 믹서기를 써야 해요. 하지만 시간이 조금 늦었는걸요? 시끄러울 것 같다는 걱정이 들어요.',
     a: [
-      { answer: 'a. 뭐.. 언젠가 연락 오겠지. 내가 할 일 하며 기다린다', type: ['sheep', 'mouse', 'snake', 'chick' ] },
-      { answer: 'b. 초조해서 마음 졸이며 인스타, 페북, 카톡 등 모든 SNS 다 들어가본다.', type: ['cow', 'rabbit', 'horse', 'pig' ] },
-      { answer: 'c. 연인에게 연락 올 때까지 무한 카톡, 무한 전화', type: ['tiger', 'dog', 'monkey', 'dragon' ] },
-    ]
+      { answer: '믹서기를 못 쓰니까, 맛을 감수해서 그냥 만들려던 것을 만들자.', type: ['dragon', 'chick', 'pig'] },
+      { answer: '믹서기를 안 쓰는 칵테일을 만들어준다고 친구를 설득해 보자.', type: ['mouse', 'tiger', 'horse', 'snake' ] },
+      { answer: '윗집에 조금 미안하긴 하지만.. 무조건 원래 계획대로 만들려던 것을 만들자.', type: ['cow', 'sheep', 'rabbit', 'dog', 'monkey' ] },
+    ],
+    tmi:'그거 아시나요? 음료를 믹서에 넣고 가는 방법을 블렌드, 음료를 층지게 따르는 방법을 플로팅 이라고 한답니다.'
   },
   {
-    q: '10. 연인이 연락도 없이 보고싶다고 우리집 앞에 와서 기다린다. ',
+    q: '이 칵테일을 어느 잔에 따라줄까요?',
     a: [
-      { answer: 'a. 아니 갑자기 오면 어떡해.. 하 나 준비도 안 했는데 왜 와. 짜증나네', type: ['dragon', 'chick', 'pig'] },
-      { answer: 'b. 아 그래?? 나 할 것들 좀만 마무리하고 나갈게', type: ['mouse', 'tiger', 'horse', 'snake' ] },
-      { answer: 'c. 헐 대박, 어디야?? 당장 나갈게!', type: ['cow', 'sheep', 'rabbit', 'dog', 'monkey' ] },
-    ]
+      { answer: '유리잔', type: ['cow', 'dragon', 'chick', 'pig' ] },
+      { answer: '와인잔처럼 기둥이 있는 잔', type: ['sheep', 'mouse', 'rabbit', 'horse', 'dog'] },
+      { answer: '기둥이 있고 삼각형의 칵테일잔', type: ['tiger', 'snake', 'monkey' ] },
+      { answer: '종이컵', type: ['sheep', 'mouse', 'rabbit', 'horse', 'dog'] },
+    ],
+    tmi: '그거 아시나요? 어떤 칵테일을 어떤 잔에 담으면 좋다고 권장하는 경우가 많답니다.'
   },
   {
-    q: '11. 내가 추구하는 연애관은? ',
+    q: '휴 힘들다. 이제 칵테일은 다 대접했겠는데, 아참 음식을 안 시켰네요. 뭐를 시켜 먹자고 할까요? 세명이서 예산은 딱 3만원이에요.',
     a: [
-      { answer: 'a. 각자 할 것 하며, 평안하고 안정적인 연애가 좋다.', type: ['cow', 'dragon', 'chick', 'pig' ] },
-      { answer: 'b. 보고싶을 때 보고, 데이트도 많이 하고 꽁냥꽁냥하는 연애가 좋아.', type: ['sheep', 'mouse', 'rabbit', 'horse', 'dog'] },
-      { answer: 'c. 연애는 마음가는대로! 불타오르는 연애가 최고지.', type: ['tiger', 'snake', 'monkey' ] },
-    ]
+      { answer: '안그래도 달콤한 칵테일엔 샐러드와 치즈', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
+      { answer: '오래 걸리지 않는 패스트푸드', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
+      { answer: '칵테일에는 든든한 국밥!', type: ['cow', 'sheep', 'pig'] },
+    ],
+    tmi:'그거 아시나요? 동네 가게에서 칵테일을 테이크아웃할 수 있는 서비스들이 있답니다.'
   },
   {
-    q: '12. 연인과 데이트 도중 화를 참을 수 없을만큼 심하게 싸웠다. 어떻게 할 것인가?',
+    q: '그래도 맛있게 먹는 친구들을 보니 뿌듯한데요? 친구가 이번엔 아무거나 하나만 더 달라고 조르네요. 어떤 칵테일을 대접할까요?',
     a: [
-      { answer: 'a. "아 화나네. 따라오지마 오늘 집 갈 거니까." 라고 말하며 집으로 간다.', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
-      { answer: 'b. "야! 너 화내지마. 너 잘못이지. 내가 뭘 잘못했는데?" 소리지르며 끝까지 불같이 화낸다.', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
-      { answer: 'c. "아니 그건 아니고, 하.." 조용히 운다.', type: ['cow', 'sheep', 'pig'] },
-    ]
+      { answer: '재료가 많이 들어가야 만드는 재미가 있으니까 뭐 많이 들어가는 거!', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
+      { answer: '멋지게 쉐이킹하는 모습을 보여줄 수 있는 칵테일', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
+      { answer: '맛은 둘째치고 색 하나는 정말 예쁜 사진촬영용 칵테일', type: ['cow', 'sheep', 'pig'] },
+    ],
+    tmi:'그거 아시나요? 샴페인이라는 술은 그냥 탄산 포도주가 아니랍니다. 샴페인이라는 이름을 달기 위해서는 아주 까다로운 규칙에 맞춰야 해요'
+  },
+  {
+    q: '역시 칵테일을 한 번 해 먹자면 너무 많이 남는군요. 반 컵도 안 사용한 것도 있고, 커다란 주스의 절반쯤 사용한 것도 있네요. 이 남은 것들을 어떻게 할까요?',
+    a: [
+      { answer: '보관법과 유통기한을 알아보고, 철저히 관리보관해야지.', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
+      { answer: '많이 남은 건 그냥 일단 보관하고, 반보다 안 남은건 그냥 버리자.', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
+      { answer: '그냥 남은 거 어차피 잘 안먹을텐데 바로 버릴래.', type: ['cow', 'sheep', 'pig'] },
+    ],
+    tmi:'그거 아시나요? 몇몇 과일향 시럽들은 너무 달아서 미생물이 번식할 수 없어요. 상온에 두어도 안 상한답니다.'
+  },
+  {
+    q: '아~ 오늘 알차게 놀았다. 시간이 늦었네요.',
+    a: [
+      { answer: '얘들아! 그냥 여기서 자고 가!', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
+      { answer: '와 오늘 정말 재밌었어, 이제 다들 헤어질까?', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
+      { answer: '다른 사람과 분위기가 가는대로 맡겨 두는 중. 흐름타자구~', type: ['cow', 'sheep', 'pig'] },
+    ],
+    tmi:'그거 아시나요? 이제 끝났답니다!'
   }
 ]
 

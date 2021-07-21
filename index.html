@@ -14,24 +14,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "container">
-    <section id = "main" class="mx-auto my-5 pb-5 pt-5 px-3">
-        <h3> 버진칵테일 mbti 테스트</h3>
-        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
-        <img src ="img/main.png" alt="mainImage" class="img-fluid"></div>
+    <div class="container">
+      <section id="main" class="mx-auto my-5 py-5 px-3">
+        <h3>나와 어울리는 버진칵테일</h3>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+          <img src="./img/main.png" alt="mainImage" class="img-fluid">
+        </div>
         <p>
-          나랑 잘 어울리는 논알콜 칵테일 찾기 <br>
-          아래 시작하기 버튼을 눌러서 시작해주세요.
-        </p> 
-        <button type="button" class="btn btn-primary mt-3" onclick="js:begin()">시작하기</button>
-    </section>
-    <section id = "qna">
-        <p>test!</p>
-    </section>
-    <section id = "result">
+          나랑 어울리는 버진칵테일은 무엇일까요? <br>
+          아래 시작하기 버튼을 눌러 시작해볼까요?
+
+        </p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-dark" type="button" onclick="js:begin()"> 시작하기 </button>
+          </div>
+      </section>
+      <section id="qna">
+        <!-- <div class="status mx-auto mt-5">
+          <div class="statusBar">
+          </div>
+        </div> -->
+        <div class="qBox my-5 py-3 mx-auto">
+  
+        </div>
+        <div class="answerBox">
+  
+        </div>
+      </section>
+      <section id="result">
         
-    </section>
-    <script src="./js/start.js" charset="utf-8"></script>
-</div>
-</body>
+      </section>
+      <script src="./js/data.js" charset="utf-8"></script>
+      <script src="./js/start.js" charset="utf-8"></script>
+    </div>
+  </body>
 </html>
