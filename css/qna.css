@@ -2,6 +2,18 @@
     display: none;
     
 }
+.status{
+    height: 5px;
+    width: 150%;
+    background-color:white;
+    
+    
+}
+.statusBar{
+    height: 150%;
+    background-color: #00C8FF;
+   
+}
 
 .qBox{
     text-align: center;

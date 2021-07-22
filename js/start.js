@@ -13,10 +13,14 @@ function addAnswer(answerText,qIdx){
     answer.addEventListener("click",function(){
         var children = document.querySelectorAll('.answerList');
         for(let i =0; i< children.length;i++){
-            children[i].disabled = true;
-            children[i].style.display = 'none';
+            children[i].disabled = true;   
         }
-        goNext(++qIdx);
+        setTimeout(() => {
+            for(let i = 0; i < children.length; i++){
+              children[i].style.display = 'none';
+            }
+            goNext(++qIdx);
+          },550)
     }, false);
     tmi.innerHTML = qnaList[qIdx].tmi;
 }
@@ -27,6 +31,8 @@ function goNext(qIdx){
     for(let i in qnaList[qIdx].a){
         addAnswer(qnaList[qIdx].a[i].answer,qIdx);
     }
+    var status = document.querySelector('.statusBar');
+    status.style.width = (100/17)*(qIdx+1)+'%';
 }
 
 function begin(){
