@@ -1,3 +1,32 @@
 #qna{
     display: none;
+    
+}
+
+.qBox{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+    
+}
+.answerList{
+    background-color:#e6e8ee94;
+    border-radius: 10px;
+    display: block;
+    width: 90%;
+    border: 0px;
+    font-weight: 200;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.answerList:hover, .answerList:focus{
+    background-color: #00C8FF;
+    color:white;
+}
+.tmi{
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+    
 }

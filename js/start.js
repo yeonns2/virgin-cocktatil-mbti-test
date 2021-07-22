@@ -4,7 +4,10 @@ const qna = document.querySelector("#qna");
 function addAnswer(answerText,qIdx){
     var a = document.querySelector('.answerBox');
     var answer = document.createElement('button');
+    var tmi = document.querySelector('.tmi');
     answer.classList.add('answerList');
+    answer.classList.add('my-2');
+    answer.classList.add('py-3');
     a.appendChild(answer);
     answer.innerHTML = answerText;
     answer.addEventListener("click",function(){
@@ -15,6 +18,7 @@ function addAnswer(answerText,qIdx){
         }
         goNext(++qIdx);
     }, false);
+    tmi.innerHTML = qnaList[qIdx].tmi;
 }
 
 function goNext(qIdx){
