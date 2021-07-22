@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="hellocock">
+    <meta name="keywords" content="virgin cocktail test">
+    <meta name="description" content="virgin cocktail test">
+    <!-- sns share -->
+    <meta property="og:url" content="https://twelvelovetype.netlify.app" />
+    <meta property="og:title" content="virgin cocktail test" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/main.png" />
+    <meta property="og:description" content="virgin cocktail test" />
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png" />
+
+    <title>virgin cocktail test</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel='stylesheet' , href="./css/default.css">
@@ -19,15 +32,15 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container text-center" style="padding: 30px;">
         <section id="main" class="mx-auto my-5 py-5 px-3">
-            <h3>나와 어울리는 버진칵테일</h3>
+            <!-- <h3>나와 어울리는 버진칵테일</h3> -->
             <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
                 <img src="./img/main.png" alt="mainImage" class="img-fluid">
-            </div>
-            <p>
-                나랑 어울리는 버진칵테일은 무엇일까요? <br>
-                아래 시작하기 버튼을 눌러 시작해볼까요?
+            </div >
+            <p class="start">
+                나랑 어울리는 버진칵테일은 무엇일지 <br>
+                아래 시작하기 버튼을 눌러 알아볼까요?
             </p>
             <div class="d-grid gap-2 col-5 mx-auto py-3">
                 <button class="button" type="button" onclick="js:begin()"> 시작하기 </button>
@@ -42,26 +55,28 @@
             <div class="qBox my-5 py-3 mx-auto">
 
             </div>
-            <div class="answerBox">
+            <div class="answerBox d-grid gap-2 mx-auto">
 
             </div>
-            <div class="tmi  my-3 py-3 mx-auto">
+            <div class="tmi  my-5 py-3 mx-auto">
 
             </div>
         </section>
         <section id="result" class="mx-auto my-5 py-5 px-3">
-            <h1>당신의 결과는?!</h1>
-            <div class="resultname">
-      
-            </div>
+            <h4>당신과 어울리는 칵테일은</h4>
+            
             <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-      
+
             </div>
+            <div class="resultname">
+
+            </div>
+            <hr class ="divider">
             <div class="resultDesc">
-      
+
             </div>
             <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">공유하기</button>
-          </section>
+        </section>
         <script src="./js/data.js" charset="utf-8"></script>
         <script src="./js/start.js" charset="utf-8"></script>
     </div>

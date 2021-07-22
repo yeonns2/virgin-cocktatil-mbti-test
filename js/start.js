@@ -1,8 +1,8 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
-const endpoint =16;
-const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0];
+const endpoint = qnaList.length;
+const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 
 function calResult(){
@@ -20,6 +20,7 @@ function setResult(){
     var imgURL = 'img/image-' + point + '.png';
     resultImg.src = imgURL;
     resultImg.alt = point;
+    resultImg.width = 150;
     resultImg.classList.add('img-fluid');
     imgDiv.appendChild(resultImg);
   
@@ -39,9 +40,8 @@ function addAnswer(answerText,qIdx,idx){
     var answer = document.createElement('button');
     var tmi = document.querySelector('.tmi');
 
-    answer.classList.add('answerList');
-    answer.classList.add('my-2');
-    answer.classList.add('py-3');
+    answer.classList.add('answerList'); 
+   
 
     a.appendChild(answer);
     answer.innerHTML = answerText;

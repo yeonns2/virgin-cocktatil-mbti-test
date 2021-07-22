@@ -1,17 +1,19 @@
 body{
- background-color: white;   
+ background-color: white;  
+ 
 }
+
 .button {
-    background-color: #00C8FF; /* Green */
+    background-color: #00C8FF;
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 15px 32px;
-    
+    padding: 15px;
+    font-size: 90%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+   
 }
 *{
     font-family: 'Noto Sans KR', sans-serif;

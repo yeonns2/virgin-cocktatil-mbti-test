@@ -1,12 +1,28 @@
 #result{
    display: none;
+   margin : 100;
+   padding: 0 auto;
 }
 .resultname{
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color : #00C8FF;
+    justify-content: center;
   }
   
   .resultDesc{
-    font-size: 15px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider{
+      width: 300px;
+      color: black;
   }
   
   .kakao{
@@ -14,7 +30,7 @@
     background-color: #FEE500;
     font-size: 15px;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   
   .kakao:hover, .kakao:focus {
