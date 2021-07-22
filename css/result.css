@@ -1,0 +1,36 @@
+#result{
+   display: none;
+}
+.resultname{
+    font-size: 20px;
+  }
+  
+  .resultDesc{
+    font-size: 15px;
+  }
+  
+  .kakao{
+    color: white;
+    background-color: #FEE500;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+  }
+  
+  .kakao:hover, .kakao:focus {
+    background-color: whitesmoke;
+    color: #FEE500;
+  }
+  
+  .gohome{
+    color: white;
+    background-color: pink;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+  }
+  
+  .gohome:hover, .gohome:focus {
+    background-color: whitesmoke;
+    color: pink;
+  }

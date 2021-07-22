@@ -3,33 +3,37 @@
     
 }
 .status{
-    height: 5px;
-    width: 150%;
+    height: 2px;
+    width: 100%;
     background-color:white;
     
     
 }
 .statusBar{
-    height: 150%;
+    height: 100%;
     background-color: #00C8FF;
    
 }
 
 .qBox{
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     font-weight: 500;
     
 }
 .answerList{
     background-color:#e6e8ee94;
     border-radius: 10px;
+    font-size: 90%;
     display: block;
     width: 90%;
     border: 0px;
     font-weight: 200;
     align-items: center;
+    
     margin: 0 auto;
+    padding: 20px;
+   
     
 }
 .answerList:hover, .answerList:focus{
