@@ -8,7 +8,7 @@ function setShare(){
     // const shareImage = url + 'img/image-'+resultAlt+'.png';
     // const shareURL = url + 'index.html';
   
-    const shareTitle = '버진 칵테일 결과';
+    const shareTitle = '버진 칵테일 테스트';
     const shareDes = '당신과 어울리는 버진 칵테일은?'
     const shareImage = url + 'img/main.png';
     const shareURL = url + 'index.html';

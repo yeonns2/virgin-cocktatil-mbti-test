@@ -5,39 +5,42 @@
 }
 
 .resultname{
-    font-size: 17px;
-    font-weight: 500;
-    color : #00C8FF;
+  font-size: 17px;
+  font-weight: 500;
+  color : #00C8FF;
    
-  }
-  
-  .resultDesc{
-   
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 30px;
-    
-   
-  }
-  .divider{
+}
 
-      color: black;
+.resultDesc{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.divider{
+
+    color: black;
   }
   
   .kakao{
-    color: white;
     background-color: #FEE500;
-    font-size: 15px;
-    width: 300px;
-    border: 0px;
-    border-radius: 5px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      padding: 15px;
+      font-size: 90%;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      width: 330px;
+      margin: 0 auto;
+
   }
   
-  .kakao:hover, .kakao:focus {
-    background-color: white;
+  /* .kakao:hover, .kakao:focus {
+    background-color: whitesmoke;
     color: #FEE500;
   }
-  
+   */
   .gohome{
     color: white;
     background-color: pink;
