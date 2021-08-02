@@ -84,6 +84,7 @@ function goNext(qIdx){
 function begin(){
     main.style.display = "none";
     qna.style.display = "block";
+    
     let qIdx = 0;
     goNext(qIdx);
 }
