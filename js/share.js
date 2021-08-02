@@ -1,11 +1,16 @@
 const url = "https://virgincocktail.netlify.app/";
 
 function setShare(){
-    var resultImg = document.querySelector('#resultImage');
-    var resultAlt = resultImg.firstElementChild.lastElementChild;
+    // var resultImg = document.querySelector('#resultImage');
+    // var resultAlt = resultImg.firstElementChild.lastElementChild;
+    // const shareTitle = '버진 칵테일 결과';
+    // const shareDes = infoList[resultAlt].name;
+    // const shareImage = url + 'img/image-'+resultAlt+'.png';
+    // const shareURL = url + 'index.html';
+  
     const shareTitle = '버진 칵테일 결과';
-    const shareDes = infoList[resultAlt].name;
-    const shareImage = url + 'img/image-'+resultAlt+'.png';
+    const shareDes = '당신과 어울리는 버진 칵테일은?'
+    const shareImage = url + 'img/main.png';
     const shareURL = url + 'index.html';
 
     Kakao.Link.sendDefault({
@@ -16,7 +21,7 @@ function setShare(){
         imageUrl: shareImage,
         link: {
             mobileWebUrl: shareURL,
-            WebUrl: shareURL,
+            webUrl: shareURL,
         },
         },
         
@@ -25,7 +30,7 @@ function setShare(){
             title: '결과 확인하기',
             link: {
             mobileWebUrl: 'https://developers.kakao.com',
-            WebUrl: shareURL,
+            webUrl: shareURL,
             },
 
         },
