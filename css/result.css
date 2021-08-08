@@ -3,6 +3,11 @@
   text-align: center;
   border-radius: 20px;
 }
+#shareResult{
+  
+  text-align: center;
+  border-radius: 20px;
+}
 
 .resultname{
   font-size: 17px;
@@ -43,7 +48,7 @@
    */
   .gohome{
     color: white;
-    background-color: pink;
+    background-color: #00C8FF;
     font-size: 20px;
     border: 0px;
     border-radius: 20px;
@@ -51,5 +56,5 @@
   
   .gohome:hover, .gohome:focus {
     background-color: whitesmoke;
-    color: pink;
+    color: #00C8FF;
   }

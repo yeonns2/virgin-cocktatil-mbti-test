@@ -80,7 +80,6 @@ function goNext(qIdx){
       status.style.width = (100/endpoint) * (qIdx+1) + '%';
 }
 
-
 function begin(){
     main.style.display = "none";
     qna.style.display = "block";

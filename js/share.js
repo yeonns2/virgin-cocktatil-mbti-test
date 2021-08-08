@@ -1,17 +1,15 @@
 const url = "https://virgincocktail.netlify.app/";
 
 function setShare(){
-    // var resultImg = document.querySelector('#resultImage');
-    // var resultAlt = resultImg.firstElementChild.lastElementChild;
-    // const shareTitle = '버진 칵테일 결과';
-    // const shareDes = infoList[resultAlt].name;
-    // const shareImage = url + 'img/image-'+resultAlt+'.png';
-    // const shareURL = url + 'index.html';
+    var resultImg = document.querySelector('#resultImage');
+    var resultAlt = resultImg.firstElementChild.alt;
+    const shareTitle = '버진 칵테일 결과';
+    const shareDes = infoList[resultAlt].name;
+    const shareImage = url + 'img/image-'+resultAlt+'.png';
+    const shareURL1 = url + 'index.html';
+    const shareURL2 = url + 'page/result-' + resultAlt + '.html';
+
   
-    const shareTitle = '버진 칵테일 테스트';
-    const shareDes = '당신과 어울리는 버진 칵테일은?'
-    const shareImage = url + 'img/main.png';
-    const shareURL = url + 'index.html';
 
     Kakao.Link.sendDefault({
         objectType: 'feed',
@@ -20,8 +18,8 @@ function setShare(){
         description: shareDes,
         imageUrl: shareImage,
         link: {
-            mobileWebUrl: shareURL,
-            webUrl: shareURL,
+            mobileWebUrl: shareURL1,
+            webUrl: shareURL1,
         },
         },
         
@@ -30,9 +28,17 @@ function setShare(){
             title: '결과 확인하기',
             link: {
             mobileWebUrl: 'https://developers.kakao.com',
-            webUrl: shareURL,
+            webUrl: shareURL1,
             },
+           
 
+        },
+        {
+            title: '나도 테스트 하기',
+            link: {
+            mobileWebUrl: 'https://developers.kakao.com',
+            webUrl: shareURL2,
+            },
         },
         ]
     });
