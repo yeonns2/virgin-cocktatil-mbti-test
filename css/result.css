@@ -36,22 +36,22 @@
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      width: 330px;
-      margin: 0 auto;
+      width: 100%;
 
   }
   
-  /* .kakao:hover, .kakao:focus {
+  .kakao:hover, .kakao:focus {
     background-color: whitesmoke;
     color: #FEE500;
   }
-   */
+  
   .gohome{
     color: white;
     background-color: #00C8FF;
     font-size: 20px;
     border: 0px;
     border-radius: 20px;
+    width: 100%;
   }
   
   .gohome:hover, .gohome:focus {

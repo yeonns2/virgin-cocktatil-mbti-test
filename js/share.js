@@ -28,8 +28,6 @@ function setShare(){
             mobileWebUrl: 'https://developers.kakao.com',
             webUrl: shareURL2,
             },
-           
-
         },
         {
             title: '나도 테스트 하기',
