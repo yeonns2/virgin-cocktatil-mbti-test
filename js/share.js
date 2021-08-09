@@ -16,8 +16,8 @@ function setShare(){
         description: shareDes,
         imageUrl: shareImage,
         link: {
-            mobileWebUrl: shareURL1,
-            webUrl: shareURL1,
+            mobileWebUrl: shareURL2,
+            webUrl: shareURL2,
         },
         },
         
@@ -26,7 +26,7 @@ function setShare(){
             title: '결과 확인하기',
             link: {
             mobileWebUrl: 'https://developers.kakao.com',
-            webUrl: shareURL1,
+            webUrl: shareURL2,
             },
            
 
@@ -35,7 +35,7 @@ function setShare(){
             title: '나도 테스트 하기',
             link: {
             mobileWebUrl: 'https://developers.kakao.com',
-            webUrl: shareURL2,
+            webUrl: shareURL1,
             },
         },
         ]
