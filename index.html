@@ -9,7 +9,7 @@
     <meta name="keywords" content="virgin cocktail test">
     <meta name="description" content="virgin cocktail test">
     <!-- sns share -->
-    
+
     <meta property="og:url" content="https://virgincocktail.netlify.app" />
     <meta property="og:title" content="virgin cocktail test" />
     <meta property="og:type" content="website" />
@@ -31,6 +31,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
         rel="stylesheet">
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF6HTMQM0F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LF6HTMQM0F');
+    </script>
     <script>
         Kakao.init('758a2a93a292f1a6e09653bebf099def');
         Kakao.isInitialized();
@@ -39,19 +48,21 @@
 
 <body>
     <div class="container text-center" style="padding: 30px;">
-        <section id="main" class="mx-auto my-3" >
+        <section id="main" class="mx-auto my-3">
             <!-- <h3>나와 어울리는 버진칵테일</h3> -->
-            <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-5">
-                <img src="./img/main.png" alt="mainImage" class="img-fluid">
-            </div >
+            <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-3">
+                <img src="./img/main.png" alt="mainImage" class="img-fluid" width="100%">
+            </div>
             <p class="start" style="font-size: 14px;">
                 나랑 어울리는 버진칵테일은 무엇일지 <br>
                 아래 시작하기 버튼을 눌러 알아볼까요?
             </p>
-                <div class="d-grid gap-2 mx-auto py-3">
-                    <button class="button" type="button" onclick="js:begin()" style="float:left;"> 시작하기 </button>
-                    <button class="hellocock" type="button" onclick="location.href = 'https://apps.apple.com/kr/app/hellocock/id1557630853?l=en'" style="float:left;"> 칵테일가게 구경가기 🍒 </button>
-                </div>
+            <div class="d-grid gap-2 mx-auto py-3">
+                <button class="button" type="button" onclick="js:begin()" style="float:left;"> 시작하기 </button>
+                <button class="hellocock" type="button"
+                    onclick="location.href = 'https://apps.apple.com/kr/app/hellocock/id1557630853?l=en'"
+                    style="float:left;"> 칵테일가게 구경가기 🍒 </button>
+            </div>
         </section>
         <section id="qna">
             <div class="status">
@@ -71,14 +82,14 @@
         </section>
         <section id="result" class="mx-auto my-5">
             <h4>당신과 어울리는 칵테일은</h4>
-            
+
             <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
 
             </div>
             <div class="resultname my-3">
 
             </div>
-            
+
             <div class="resultDesc my-3">
 
             </div>
