@@ -1,15 +1,13 @@
 const url = "https://virgincocktail.netlify.app/";
 
 function setShare(){
-    var resultImg = document.querySelector('#resultImage');
+    var resultImg = document.querySelector('#resultImg');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '버진 칵테일 결과';
     const shareDes = infoList[resultAlt].name;
-    const shareImage = url + 'img/image-'+resultAlt+'.png';
+    const shareImage = url + 'img/image-'+ resultAlt +'.png';
     const shareURL1 = url + 'index.html';
     const shareURL2 = url + 'page/result-' + resultAlt + '.html';
-
-  
 
     Kakao.Link.sendDefault({
         objectType: 'feed',
