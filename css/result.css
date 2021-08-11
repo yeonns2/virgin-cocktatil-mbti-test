@@ -2,31 +2,51 @@
   display: none;
   text-align: center;
   border-radius: 20px;
+ 
 }
 #shareResult{
-  
+  max-width: 700px;
   text-align: center;
   border-radius: 20px;
 }
 
 .resultname{
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
   color : #00C8FF;
+}
+
+.resulttag{
+  font-size: 15px;
+  font-weight: 500;
+  color : black;
+  opacity: 50%;
    
 }
 
 .resultDesc{
+  padding: 20px;
   font-size: 14px;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 25px;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
-.divider{
+.compatibility {
+  font-weight: 400;
+  color: gray;
+  margin: 0 auto;
+  text-align: center;
+}
 
-    color: black;
-  }
-  
-  .kakao{
+.compatibility_item{
+
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.kakao{
     background-color: #FEE500;
       border: none;
       border-radius: 10px;
@@ -38,7 +58,7 @@
       display: inline-block;
       width: 100%;
 
-  }
+}
   
   .kakao:hover, .kakao:focus {
     background-color: whitesmoke;
@@ -48,9 +68,14 @@
   .gohome{
     color: white;
     background-color: #00C8FF;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     width: 100%;
   }
   

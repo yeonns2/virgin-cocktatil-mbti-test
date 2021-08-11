@@ -27,30 +27,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
         rel="stylesheet">
-</head>
+</head> 
+   
 <body>
-    <section id="shareResult" class="mx-auto my-5">
-        <h4>당신과 어울리는 칵테일은</h4>
+    
+    <div class="container text-center" style="padding: 50px;">
+        
+        <section id="shareResult" class="mx-auto my-3">
+        <img src="../img/hellocock.svg" alt="0" width="100px" >
+        <h5 class= "my-3" style="opacity:80%;">당신의 버진 칵테일은</h5>
         
         <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-            <img src="../img/image-9.png" alt="9" width="30%" >
-        </div>
-        <div class="resultname my-3">
-            <p>바베도스 서프라이즈</p>
+            <img src="../img/image-13.png" alt="0" width="50%" >
         </div>
         
-        <div class="resultDesc my-3">
-            <p>주로 포부가 크고 성격이 낙천적인 성향을 가지고 있고, <br>논리적이면서 두뇌회전이 매우 빠르다고 할 수 있어요.  <br>말재주 또한 좋아 사교성이 좋고 유쾌하지만 화려한 것을 좋아해 <br>허영심을 부리거나 사치를 부리기 때문에 이 점들을 주의해야 돼요.  <br>뛰어난 능력에 자만하는 경우도 종종 있기 때문에 겸손이 필요하답니다!</p>
+        <div class="resulttag" >
+            <p style="margin-bottom : 0;">사랑스러운</p>
         </div>
-        <script type = "text/javascript">
-            function moveHome(){
-                location.href = "../index.html";
-            }
-        </script>
-        <div>
-            <button type="button" class="button my-3" onclick="js:moveHome()">나도 참여하기</button>
+        <div class="resultname">
+            <p>셜리 템플</p>
+        </div>
+        
+        <div class="resultDesc my-4">
+            <p>주로 포부가 크고 성격이 낙천적인 성향을 가지고 있고, 논리적이면서 두뇌회전이 매우 빠르다고 할 수 있어요.  말재주 또한 좋아 사교성이 좋고 유쾌하지만 화려한 것을 좋아해 허영심을 부리거나 사치를 부리기 때문에 이 점들을 주의해야 돼요. 뛰어난 능력에 자만하는 경우도 종종 있기 때문에 겸손이 필요하답니다!</p>
+            <div class="compatibility mx-auto">
+                <!-- <p>칵테일 궁합은?</p> -->
+                <div class = "compatibility_item mx-auto p-3" width="100" height="100">
+                    <p>최고의 칵테일</p>
+                    <img src="../img/image-13.png" alt="0" width="70px" onclick="location.href='./result-13.html'" >
+                </div>
+                <div class = "compatibility_item mx-auto p-3" width="100" height="100">
+                    <p>최악의 칵테일</p>
+                    <img src="../img/image-13.png" alt="0" width="70px" >
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="buttons d-grid gap-2 my-4 mx-auto">
+            <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store'">칵테일 구매하기✨</button>
+            <button type="button" class="gohome" >칵테일 만들어보기👀</button>
+            <button type="button" class="kakao" onclick="js:setShare()">공유하기</button>
         </div>
        
     </section>
+    </div>
 </body>
 </html>

@@ -20,7 +20,7 @@ function setResult(){
     var imgURL = 'img/image-' + point + '.png';
     resultImg.src = imgURL;
     resultImg.alt = point;
-    resultImg.width = 150;
+    resultImg.width = 100;
     resultImg.classList.add('img-fluid');
     imgDiv.appendChild(resultImg);
   
