@@ -1,71 +1,70 @@
-#result{
-  display: none;
-  text-align: center;
-  border-radius: 20px;
- 
-}
-#shareResult{
-  max-width: 600px;
-  text-align: center;
-  border-radius: 20px;
+#result {
+    display: none;
+    text-align: center;
+    border-radius: 20px;
 }
 
-.resultname{
-  font-size: 22px;
-  font-weight: 600;
-  color : #00C8FF;
+#shareResult {
+    max-width: 600px;
+    text-align: center;
+    border-radius: 20px;
 }
 
-.resulttag{
-  font-size: 15px;
-  font-weight: 500;
-  color : black;
-  opacity: 50%;
-   
+.resultname {
+    font-size: 22px;
+    font-weight: 600;
+    color: #00C8FF;
 }
 
-.resultDesc{
-  padding: 20px;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 25px;
-  background-color: whitesmoke;
-  border-radius: 10px;
+.resulttag {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    opacity: 50%;
 }
+
+.resultDesc {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
 .compatibility {
-  font-weight: 400;
-  color: gray;
-  margin: 0 auto;
-  text-align: center;
+    font-weight: 400;
+    color: #00C8FF;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.compatibility_item{
-
-  display: inline-block;
-  text-align: center;
-  margin: 0 auto;
+.compatibility_item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.kakao{
+.kakao {
     background-color: #FEE500;
-      border: none;
-      border-radius: 10px;
-      color: white;
-      padding: 15px;
-      font-size: 90%;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      width: 100%;
-
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    font-size: 90%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
 }
-  
-  .kakao:hover, .kakao:focus {
+
+.kakao:hover,
+.kakao:focus {
     background-color: whitesmoke;
     color: #FEE500;
-  }
-  
-  .gohome{
+}
+
+.gohome {
     color: white;
     background-color: #00C8FF;
     border: none;
@@ -77,9 +76,10 @@
     text-decoration: none;
     display: inline-block;
     width: 100%;
-  }
-  
-  .gohome:hover, .gohome:focus {
+}
+
+.gohome:hover,
+.gohome:focus {
     background-color: whitesmoke;
     color: #00C8FF;
-  }
+}

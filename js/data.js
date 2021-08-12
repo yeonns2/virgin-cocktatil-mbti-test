@@ -1,7 +1,7 @@
 /*
 0 - ISTJ (Prairie Oyster)
 1 - ISFJ (Florida)
-2 - INFJ (Arnold Palmer)
+2 - INFJ (Cinderella)
 3 - INTJ (Grasshoper)
 4 - ISTP (Cuba Libre)
 5 - ISFP (Sunrise)
@@ -11,7 +11,7 @@
 9 - ESFP (Barbados Surprise)
 10 - ENFP (Blue Hawaiian)
 11 - ENTP (Pona Colada)
-12 - ESTJ (Cinderella)
+12 - ESTJ (Arnold Palmer)
 13 - ESFJ (Shirley Temple)
 14 - ENFJ (Mojito Lime)
 15 - ENTJ (Golden Medalist)
@@ -152,7 +152,7 @@ const infoList = [{
         tag: '논리적인',
         name: '프레리 오이스터',
         mbti: 'ISTJ',
-        desc: '총명하고 광범위한 분야에 재능이 있으며 인정받기를 좋아해요. 낯선환경이나 변화는 별로 좋아하지 않아요. 대인관계에 맺고 끊음이 확실하며 현실적이에요. 창의성이 부족하지만 정확하며 절약정신이 있어요'
+        desc: '<b>계획적이고 논리적인 당신</b>은<br>여러 분야에 재능이 있으며<br>인정받기를 좋아해요.<br><br>조용하고 사람들에게 큰 관심이 없어<br>공감 능력이 없다는 소리도 자주 듣지만<br><b>솔직함이 당신의 매력!</b> <br><br> 책임감이 높아 한 번 시작하면 < br > 끝을 봐야하는 성격이네요! <br><br>오늘 계획을 다 지켰다면<br>칵테일 한잔 어때요 ? 🍹'
     },
     {
         tag: '온화한',
