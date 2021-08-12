@@ -13,22 +13,24 @@ function calResult() {
 
 function setResult() {
     let point = calResult();
-    const resultTag = document.querySelector('.resulttag')
-    const resultName = document.querySelector('.resultname');
-    resultName.innerHTML = infoList[point].name;
-    resultTag.innerHTML = infoList[point].tag;
+    location.href = './page/result-' + point + '.html';
 
-    var resultImg = document.createElement('img');
-    const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image-' + point + '.png';
-    resultImg.src = imgURL;
-    resultImg.alt = point;
-    resultImg.width = 200;
-    resultImg.classList.add('img-fluid');
-    imgDiv.appendChild(resultImg);
+    // const resultTag = document.querySelector('.resulttag')
+    // const resultName = document.querySelector('.resultname');
+    // resultName.innerHTML = infoList[point].name;
+    // resultTag.innerHTML = infoList[point].tag;
 
-    const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML = infoList[point].desc;
+    // var resultImg = document.createElement('img');
+    // const imgDiv = document.querySelector('#resultImg');
+    // var imgURL = 'img/image-' + point + '.png';
+    // resultImg.src = imgURL;
+    // resultImg.alt = point;
+    // resultImg.width = 200;
+    // resultImg.classList.add('img-fluid');
+    // imgDiv.appendChild(resultImg);
+
+    // const resultDesc = document.querySelector('.resultDesc');
+    // resultDesc.innerHTML = infoList[point].desc;
 }
 
 

@@ -1,4 +1,4 @@
-const url = "https://virgincocktail.netlify.app/";
+const url = "https://hellocock-virgin.netlify.app/";
 
 function setShare() {
     var resultImg = document.querySelector('#resultImg');
@@ -7,7 +7,7 @@ function setShare() {
     const shareDes = infoList[resultAlt].name;
     const shareImage = url + 'img/image-' + resultAlt + '.png';
     const shareURL1 = url + 'index.html';
-    const shareURL2 = url + 'page/result-' + resultAlt + '.html';
+    const shareURL2 = url + 'result-' + resultAlt + '.html';
 
     Kakao.Link.sendDefault({
         objectType: 'feed',
