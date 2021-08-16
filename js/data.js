@@ -152,96 +152,128 @@ const infoList = [{
         tag: '논리적인',
         name: '프레리 오이스터',
         mbti: 'ISTJ',
-        desc: '<b>계획적이고 논리적인 당신</b>은<br>여러 분야에 재능이 있으며<br>인정받기를 좋아해요.<br><br>조용하고 사람들에게 큰 관심이 없어<br>공감 능력이 없다는 소리도 자주 듣지만<br><b>솔직함이 당신의 매력!</b> <br><br> 책임감이 높아 한 번 시작하면 < br > 끝을 봐야하는 성격이네요! <br><br>오늘 계획을 다 지켰다면<br>칵테일 한잔 어때요 ? 🍹'
+        desc: '<b>계획적이고 논리적인 당신</b>은<br>여러 분야에 재능이 있으며<br>인정받기를 좋아해요.<br><br>조용하고 사람들에게 큰 관심이 없어<br>공감 능력이 없다는 소리도 자주 듣지만<br><b>솔직함이 당신의 매력!</b> <br><br> 책임감이 높아 한 번 시작하면 <br> 끝을 봐야하는 성격이네요! <br><br>오늘 계획을 다 지켰다면<br>칵테일 한잔 어때요 ? 🍹',
+        best: 10,
+        worst: 13
     },
     {
         tag: '온화한',
         name: '플로리다',
         mbti: 'ISFJ',
-        desc: '총명하고 광범위한 분야에 재능이 있으며 인정받기를 좋아해요. 낯선환경이나 변화는 별로 좋아하지 않아요. 대인관계에 맺고 끊음이 확실하며 현실적이에요. 창의성이 부족하지만 정확하며 절약정신이 있어요'
+        desc: '총명하고 광범위한 분야에 재능이 있으며 인정받기를 좋아해요. 낯선환경이나 변화는 별로 좋아하지 않아요. 대인관계에 맺고 끊음이 확실하며 현실적이에요. 창의성이 부족하지만 정확하며 절약정신이 있어요',
+        best: 10,
+        worst: 13
     },
     {
         tag: '신비로운',
         name: '신데렐라',
         mbti: 'INFJ',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '냉철한',
         name: '그래스호퍼',
         mbti: 'INTJ',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '만능적인',
         name: '쿠바 리브레',
         mbti: 'ISTP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '예술적인',
         name: '선라이즈',
         mbti: 'ISFP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '섬세한',
         name: '피치 크러쉬',
         mbti: 'INFP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '객관적인',
         name: '블러디 메리',
         mbti: 'INTP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '자유로운',
         name: '스트로베리 다이키리',
         mbti: 'ESTP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '화려한',
         name: '바베이도스 서프라이즈',
         mbti: 'ESFP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '열정적인',
         name: '블루 하와이안',
         mbti: 'ENFP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '도전적인',
         name: '피나 콜라다',
         mbti: 'ENTP',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '현실적인',
         name: '아놀드 팔머',
         mbti: 'ESTJ',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '사랑스러운',
         name: '셜리 템플',
         mbti: 'ESFJ',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '다정한',
         name: '모히또 라임',
         mbti: 'ENFJ',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
     {
         tag: '뛰어난',
         name: '골든 메달리스트',
         mbti: 'ENTJ',
-        desc: '    '
+        desc: '    ',
+        best: 10,
+        worst: 13
     },
 ]
