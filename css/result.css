@@ -63,6 +63,19 @@
     color: #FEE500;
 }
 
+.retest {
+    background-color: #FF2D55;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    font-size: 90%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+
 .gohome {
     color: white;
     background-color: #00C8FF;
