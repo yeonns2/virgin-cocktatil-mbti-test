@@ -230,7 +230,7 @@ const infoList = [{
         worst: 13
     },
     {
-        tag: '사랑스러운',
+        tag: '친절한',
         name: '셜리 템플',
         mbti: 'ESFJ',
         desc: '    ',
