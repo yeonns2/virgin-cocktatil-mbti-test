@@ -5,7 +5,7 @@ function setShare() {
     var resultImg = document.querySelector('#resultImg');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '버진 칵테일 결과';
-    const shareDes = infoList[resultAlt].name;
+    const shareDes = infoList[resultAlt].tag + infoList[resultAlt].name;
     const shareImage = url + 'img/image-' + resultAlt + '.png';
     const shareURL_home = url + 'index.html';
     const shareURL_result = url + 'page/result-' + resultAlt + '.html';
@@ -25,14 +25,14 @@ function setShare() {
         buttons: [{
                 title: '결과 확인하기',
                 link: {
-                    mobileWebUrl: 'https://developers.kakao.com',
+                    mobileWebUrl: shareURL_result,
                     webUrl: shareURL_result,
                 },
             },
             {
                 title: '나도 테스트 하기',
                 link: {
-                    mobileWebUrl: 'https://developers.kakao.com',
+                    mobileWebUrl: shareURL_home,
                     webUrl: shareURL_home,
                 },
             },
