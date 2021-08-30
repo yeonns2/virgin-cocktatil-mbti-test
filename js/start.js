@@ -43,6 +43,7 @@ function setResult() {
     bestImg.src = bestImgURL;
     bestImg.alt = best;
     bestImg.width = 100;
+    bestImg.onclick = function() { location.href = './page/result-' + best + '.html'; }
     bestImg.classList.add('img-fluid');
 
     bestImgDiv.appendChild(bestImg);
@@ -55,6 +56,8 @@ function setResult() {
     worstImg.src = worstImgURL;
     worstImg.alt = worst;
     worstImg.width = 100;
+
+    worstImg.onclick = function() { location.href = './page/result-' + worst + '.html'; }
     worstImg.classList.add('img-fluid');
     worstImgDiv.appendChild(worstImg);
     compatibility.appendChild(worstImgDiv);
