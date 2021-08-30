@@ -47,7 +47,6 @@ function setResult() {
     bestImg.classList.add('img-fluid');
 
     bestImgDiv.appendChild(bestImg);
-
     compatibility.appendChild(bestImgDiv);
 
     var worstImg = document.createElement('img');
