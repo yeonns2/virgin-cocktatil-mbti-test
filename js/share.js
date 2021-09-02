@@ -1,4 +1,4 @@
-const url = "https://hellocock-virgin.netlify.app/";
+const url = "https://hellocock-mbti.netlify.app/";
 const hellocock_url = "https://www.hellocock.org/redirection/virgin/store";
 Kakao.init('758a2a93a292f1a6e09653bebf099def');
 Kakao.isInitialized();
