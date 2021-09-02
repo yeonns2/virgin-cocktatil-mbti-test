@@ -13,55 +13,55 @@ function calResult() {
 
 function setResult() {
     let point = calResult();
-    //location.href = './page/result-' + point + '.html';
+    location.href = './page/result-' + point + '.html';
 
-    const resultTag = document.querySelector('.resulttag')
-    const resultName = document.querySelector('.resultname');
-    resultName.innerHTML = infoList[point].name;
-    resultTag.innerHTML = infoList[point].tag;
+    // const resultTag = document.querySelector('.resulttag')
+    // const resultName = document.querySelector('.resultname');
+    // resultName.innerHTML = infoList[point].name;
+    // resultTag.innerHTML = infoList[point].tag;
 
-    var resultImg = document.createElement('img');
-    const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image-' + point + '.png';
-    resultImg.src = imgURL;
-    resultImg.alt = point;
-    resultImg.width = 200;
-    resultImg.classList.add('img-fluid');
-    imgDiv.appendChild(resultImg);
+    // var resultImg = document.createElement('img');
+    // const imgDiv = document.querySelector('#resultImg');
+    // var imgURL = 'img/image-' + point + '.png';
+    // resultImg.src = imgURL;
+    // resultImg.alt = point;
+    // resultImg.width = 200;
+    // resultImg.classList.add('img-fluid');
+    // imgDiv.appendChild(resultImg);
 
-    const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML = infoList[point].desc;
+    // const resultDesc = document.querySelector('.resultDesc');
+    // resultDesc.innerHTML = infoList[point].desc;
 
-    const compatibility = document.querySelector('.compatibility');
+    // const compatibility = document.querySelector('.compatibility');
 
-    let best = infoList[point].best;
-    let worst = infoList[point].worst;
+    // let best = infoList[point].best;
+    // let worst = infoList[point].worst;
 
-    var bestImg = document.createElement('img');
-    const bestImgDiv = document.querySelector('#bestCocktail');
-    var bestImgURL = 'img/image-' + best + '.png';
-    bestImg.src = bestImgURL;
-    bestImg.alt = best;
-    bestImg.width = 100;
-    bestImg.onclick = function() { location.href = './page/result-' + best + '.html'; }
-    bestImg.classList.add('img-fluid');
+    // var bestImg = document.createElement('img');
+    // const bestImgDiv = document.querySelector('#bestCocktail');
+    // var bestImgURL = 'img/image-' + best + '.png';
+    // bestImg.src = bestImgURL;
+    // bestImg.alt = best;
+    // bestImg.width = 100;
+    // bestImg.onclick = function() { location.href = './page/result-' + best + '.html'; }
+    // bestImg.classList.add('img-fluid');
 
-    bestImgDiv.appendChild(bestImg);
-    compatibility.appendChild(bestImgDiv);
+    // bestImgDiv.appendChild(bestImg);
+    // compatibility.appendChild(bestImgDiv);
 
-    var worstImg = document.createElement('img');
-    const worstImgDiv = document.querySelector('#worstCocktail');
-    var worstImgURL = 'img/image-' + worst + '.png';
-    worstImg.src = worstImgURL;
-    worstImg.alt = worst;
-    worstImg.width = 100;
+    // var worstImg = document.createElement('img');
+    // const worstImgDiv = document.querySelector('#worstCocktail');
+    // var worstImgURL = 'img/image-' + worst + '.png';
+    // worstImg.src = worstImgURL;
+    // worstImg.alt = worst;
+    // worstImg.width = 100;
 
-    worstImg.onclick = function() { location.href = './page/result-' + worst + '.html'; }
-    worstImg.classList.add('img-fluid');
-    worstImgDiv.appendChild(worstImg);
-    compatibility.appendChild(worstImgDiv);
+    // worstImg.onclick = function() { location.href = './page/result-' + worst + '.html'; }
+    // worstImg.classList.add('img-fluid');
+    // worstImgDiv.appendChild(worstImg);
+    // compatibility.appendChild(worstImgDiv);
 
-    resultDesc.appendChild(compatibility);
+    // resultDesc.appendChild(compatibility);
 
 }
 

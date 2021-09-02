@@ -1,14 +1,16 @@
 const url = "https://hellocock-virgin.netlify.app/";
 const hellocock_url = "https://www.hellocock.org/redirection/virgin/store";
+Kakao.init('758a2a93a292f1a6e09653bebf099def');
+Kakao.isInitialized();
 
 function setShare() {
     var resultImg = document.querySelector('#resultImg');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '취향으로 알아보는 버진 칵테일 ✨';
     const shareDes = infoList[resultAlt].tag + ' ' + infoList[resultAlt].name;
-    const shareImage = url + 'img/image-' + resultAlt + '.png';
+    const shareImage = url + 'img/imasge-' + resultAlt + '.png';
     const shareURL_home = url + 'index.html';
-    const shareURL_result = url + 'page/result-' + resultAlt + '.html';
+    const shareURL_result = url + 'page/ressult-' + resultAlt + '.html';
 
     Kakao.Link.sendDefault({
         objectType: 'feed',
