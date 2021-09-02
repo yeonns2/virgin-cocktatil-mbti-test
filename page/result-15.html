@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 
 <body>
@@ -48,9 +49,22 @@
             </div>
 
             <div class="resultDesc my-4" style="line-height:160%">
-                <p>비전있고 리더십이 강한<br>당신은 성취하는 것이 가장 즐거워요<br><br>삶이 늘 바쁘고 일을 잘하며<br> 머리가 똑똑해요<br><br>비효율적인 걸 이해할 수 없으며<br>논리적으로 생각하고<br>해결책을 내는 편이에요<br><br>자유를 선호하며 목표를 위해서라면<br>수단과 방법을 가리지 않아요!
-                    <br><br> 오늘 누구보다 열심히 산 당신에게<br>칵테일 한잔 어때요? 🍹
+
+                <b style="color:#00C8FF;">
+                   당신의 성격이야기</b>
+
+                <p><br>비전있고 리더십이 강한 당신은 성취하는 것이 가장 즐거워요. 삶이 늘 바쁘고 일을 잘하며 머리가 똑똑해요. 비효율적인 걸 이해할 수 없으며 논리적으로 생각하고 해결책을 내는 편이에요. 자유를 선호하며 목표를 위해서라면 수단과 방법을 가리지 않아요! 오늘 누구보다 열심히 산 당신에게 칵테일 한잔 어때요? 🍹
                 </p>
+                <b style="color:#00C8FF;">
+                    <br>황금빛 메달을 거머쥔 진정한 메달리스트</b>
+
+                <p><br>골든 메달리스트라는 칵테일은 칵테일을 잘 모르는 사람들에게 많이 알려져있지는 않아요. 하지만 사실 무알콜 칵테일의 대장이라고도 불린답니다. 어떤 분야에서 당신이 정말 훌륭하더라도, 그 분야에 관심이 없는 사람들은 잘 모를 수 있어요. 하지만 당신의 분야에서만큼은 당신이 주변 사람들보다 뛰어나다고 평가받고 있지는 않으세요? </p>
+                <b style="color:#00C8FF;"><br>금메달을 따기 위해서는 무엇이라도 해야지! </b><br>
+                <p><br>올림픽에서 메달을 따기 위해서 연습하는 선수들은 정말 하루하루를 규칙적인 삶 속에서 살아가려고 노력해요. 그런 것을 지키지 못하는 스스로를 채찍질하는 경우도 정말 많지요. 가장 싫어하는 단어는 비효율, 낭비, 무계획 아닌가요?</p>
+                <b style="color:#00C8FF;"><br>가끔은 나같은 사람도 낭만을 챙긴다고~
+                </b>
+                <p><br>금빛 메달리스트라는 반짝이는 이름 속의 맛은, 딸기 바나나 스무디! 어찌보면 속은 정말 부드럽고 달콤한데 다른 사람들에게 보이는 이미지는 정말 단단하고 화려해요. 이런 점에서 가끔 스스로 슬픈 감정을 느낄수도 있답니다. 그럴 때마다 너무 자책하지는 마세요! 당신이 진짜 메달리스트랍니다.</p>
+
                 <div class="compatibility mx-auto">
 
                     <div class="item mx-auto p-3" width="100" height="100">
@@ -64,14 +78,23 @@
                 </div>
             </div>
 
-            <div class="buttons d-grid gap-2 my-4 mx-auto">
-                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store'">칵테일 구매하기✨</button>
-                <button type="button" class="gohome">칵테일 만들어보기👀</button>
-                <button type="button" class="retest" onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
+
+
+            <div class="buttons d-grid gap-2 my-4 mx-auto ">
+                <button type="button " class="gohome " onclick="location.href='https://www.hellocock.org/redirection/virgin/store?utm_campaign=proj3_mbti&utm_source=notionstore&utm_medium=soldout_backbutton' ">칵테일 구매하기✨</button>
+                <button type="button " class="gohome " onclick="location.href='https://www.hellocock.org/level/goldenmedalist' ">칵테일 만들어보기👀</button>
+                <button type="button " class="retest " onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
             </div>
 
-        </section>
 
+            <footer>
+                <button type="button " class="kakao " onclick="js:setShare() ">공유하기</button>
+            </footer>
+
+        </section>
+        <script src="../js/data.js " charset="utf-8 "></script>
+        <script src="../js/start.js " charset="utf-8 "></script>
+        <script src="../js/share.js " charset="utf-8 "></script>
     </div>
 
 </body>

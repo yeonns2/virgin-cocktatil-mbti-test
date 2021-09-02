@@ -27,9 +27,9 @@
         padding: 20px;
         font-size: 14px;
         font-weight: 300;
-        line-height: 25px;
         background-color: whitesmoke;
         border-radius: 10px;
+        text-align: left;
     }
     
     .compatibility {

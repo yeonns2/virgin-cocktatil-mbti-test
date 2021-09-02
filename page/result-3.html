@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 
 <body>
@@ -48,8 +49,42 @@
             </div>
 
             <div class="resultDesc my-4" style="line-height:160%">
-                <p> <b>논리적이고 완벽을 추구하는 당신</b>은<br> 비효율적이고 전통적인 방법을 <br>이해할 수 없어요.<br><br>남에게 별로 관심이 없고 친구가 고민상담을 하면 잘 들어주지만 공감하진 못해요. <br>하지만 의외로 감성적인 겉바속촉!<br><br>계획을 철저히 세우고 어려운 일이 있어도<br> 도전이라 생각하며 즐기는 스타일이에요!<br><br> 오늘도 바쁘게 산 당신을 위해<br> 칵테일 한잔 어때요? 🍹
+
+
+                <b style="color:#00C8FF;">
+                    당신의 성격이야기</b>
+
+                <p><br> 논리적이고 완벽을 추구하는 당신은 비효율적이고 전통적인 방법을 이해할 수 없어요. 남에게 별로 관심이 없고 친구가 고민상담을 하면 잘 들어주지만 공감하진 못해요. 하지만 의외로 감성적인 겉바속촉! 계획을 철저히 세우고 어려운 일이 있어도 도전이라 생각하며 즐기는 스타일이에요! 오늘도 바쁘게 산 당신을 위해 칵테일 한잔 어때요? 🍹
                 </p>
+
+                <b style="color:#00C8FF;">
+                     <br>민트초코 왜 싫어? 
+                     저거 무조건 먹자.
+                     
+                     </b>
+
+                <p><br>민트초코 향을 가득 담은 그래스호퍼를 보면 민트초코파와 반 민트초코파가 생각나고, 당신이 생각나는군요. 물론, 민트초코는 너무 호불호가 확실한 음식이라 당신도 다른 사람을 잘 이해할 수 있겠지만, 당신은 공감능력이 없다는 이야기를 많이 듣곤 한답니다.
+
+                </p>
+                <b style="color:#00C8FF;"><br>공감을 못하는 게 아니야
+                    난 중요한 문제를 풀어야 한다구!
+                    
+                     </b><br>
+                <p><br>공감을 못한다는 말을 정말 자주 듣는 편이지만, 진짜 공감을 못하는 것은 아니에요. 다른 사람들의 고민 이야기를 들으면, 어떻게 저 문제를 해결해서 도와줄 수 있을까 생각하다 보면 반응을 못하고 생각만 하고 있곤 하지요. 평소에 다른 사람들에게 소홀한 것은, 내가 해결하고자 하는 어떤 문제나 내가 집중하고 있는 문제가 더 중요하다고 느껴져서 그런 것이랍니다. 머리속에서 창의적인 생각이 계속 떠오르는데, 어떤 생각이
+                    생각을 물고 더 좋은 생각을 만들어내고, 실제로 실행해볼 계획을 세우다 보면 시간이 모두 가 버리고 말지요.
+
+                </p>
+                <b style="color:#00C8FF;"><br>생각을 이렇게 많이 하는데
+                    그래도 여유는 즐겨야지!
+                    
+                    
+                     </b><br>
+                <p><br>내가 정말 많이 고민한 만큼 아는 것이 많고 내가 만들어낼 결과물에 대해서 확신이 있기 때문에, 독립적으로 보이기도 하고, 단호해 보이며, 어떤 일에 굉장히 열정적인 사람처럼 보이곤 합니다. 이것은 어쩌면 주위 사람들이 친해지기 어렵다는 느낌을 주는 요소가 되곤 합니다. 하지만 생각은 합리적인 생각을 하는 것을 멈추고 잠깐 쉴 때 나온다는 연구가 있지요. 조금 여유를 가지고, 친구를 나만의 공간에 초대해서 같이
+                    이야기하며 맛있는 음료를 대접해보는 것은 어떨까요?
+
+
+                </p>
+
                 <div class="compatibility mx-auto">
 
                     <div class="item mx-auto p-3" width="100" height="100">
@@ -66,14 +101,18 @@
 
 
             <div class="buttons d-grid gap-2 my-4 mx-auto">
-                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store'">칵테일 구매하기✨</button>
-                <button type="button" class="gohome">칵테일 만들어보기👀</button>
+                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store?utm_campaign=proj3_mbti&utm_source=notionstore&utm_medium=onsale_backbutton'">칵테일 구매하기✨</button>
+                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/level/grasshoppermocktail'">칵테일 만들어보기👀</button>
                 <button type="button" class="retest" onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
             </div>
-
+            <footer>
+                <button type="button" class="kakao" onclick="js:setShare()">공유하기</button>
+            </footer>
         </section>
+        <script src="../js/data.js" charset="utf-8"></script>
+        <script src="../js/start.js" charset="utf-8"></script>
+        <script src="../js/share.js" charset="utf-8"></script>
     </div>
-
 </body>
 
 

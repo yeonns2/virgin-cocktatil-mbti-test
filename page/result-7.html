@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 
 <body>
@@ -48,8 +49,31 @@
             </div>
 
             <div class="resultDesc my-4" style="line-height:160%">
-                <p>조용하고 개인주인 성향이 있는 당신은 <br>호불호가 확실하고 자기 주관이 뚜렷해요 <br><br>남한테 관심도 없고 <br>남도 나한테 뭐라하든지 신경안써요!<br>가끔 공감능력이 없다는 소리도 듣지만 <br>나름 공감하려고 노력해요 <br><br>모든 일에 논리적으로 분석하는 것을<br> 좋아하며 관심있는 것에 대해선 전문가에요<br><br> 생각이 많고 호기심도 많아<br>아이디어 부자에요!
-                    <br><br>오늘은 칵테일 한잔 마시면서<br>분석해보는게 어때요? 🍹
+
+
+                <b style="color:#00C8FF;">
+                    당신의 성격이야기</b>
+
+
+                <p><br> 조용하고 개인주인 성향이 있는 당신은 호불호가 확실하고 자기 주관이 뚜렷해요. 남한테 관심도 없고 남도 나한테 뭐라하든지 신경안써요! 가끔 공감능력이 없다는 소리도 듣지만 나름 공감하려고 노력해요. 모든 일에 논리적으로 분석하는 것을 좋아하며 관심있는 것에 대해선 전문가에요. 생각이 많고 호기심도 많아 아이디어 부자에요! 오늘은 칵테일 한잔 마시면서 생각을 정리하는게 어때요?🍹
+                </p>
+                <b style="color:#00C8FF;">
+                     <br>정말 어려워?
+                     나는 할 수 있어
+                     </b>
+                <p><br>객관적인 눈으로 내가 마주친 어려운 문제를 풀어나가는 당신. 당신을 보면 떠오르는 칵테일로 블러디 메리를 꼽은 이유는, 이 칵테일이 정말 만들기 어렵기 때문입니다. 서양 귀신의 이름을 따온 블러디 메리는 이름도 괴상하지만 재료와 만드는 방법 모두가 정말 괴랄합니다. 레시피만 지킨다고 되는 게 아닙니다. 후추, 핫소스, 토마토, 치커리.. 이런 이상한 재료들이 들어가 환상적인 맛을 만드는 칵테일은, 대한민국에서
+                    만들 수 있는 사람이 손에 꼽힐 정도로 적습니다. 정말 까다롭게 좋은 재료들을 고르고 골라 분석하고 절묘한 비율로 섞어 만들어야 하지요.
+
+                </p>
+
+
+                <b style="color:#00C8FF;"><br>평범한 사람들과 비교하지 마
+                    나는 행동하지 않을 뿐 계획은 다 있거든
+                    
+                     </b><br>
+                <p><br>아이디어가 샘솟아 머릿속에서 둥둥 떠다니고, 그런 것들을 항상 생각하다 보면 다른 사람들이 보기에 좀 행동이 어색하거나 말하는 것이 굉장히 독특한 경우가 많습니다. 자신이 이상한 사람이라고 느껴질 수 있다는 사실을 알고 있습니다. 하지만 관심가지 않는 것에는 눈길도 제대로 주지 않습니다. 다른 사람들에 비해서, 몇몇 면들에서는 정말 전문가이지만 몇몇 분야에 대해서는 더 아무것도 모르는 사람이지요. 관심없는 것에는
+                    행동하지 않는 당신, 술을 못 먹어도 괜찮아요. 혹시 칵테일에는 관심 없나요?
+
                 </p>
                 <div class="compatibility mx-auto">
 
@@ -67,12 +91,18 @@
 
 
             <div class="buttons d-grid gap-2 my-4 mx-auto">
-                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store'">칵테일 구매하기✨</button>
-                <button type="button" class="gohome">칵테일 만들어보기👀</button>
+                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store?utm_campaign=proj3_mbti&utm_source=notionstore&utm_medium=soldout_backbutton'">칵테일 구매하기✨</button>
+                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/level/virginmary'">칵테일 만들어보기👀</button>
                 <button type="button" class="retest" onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
             </div>
+            <footer>
+                <button type="button" class="kakao" onclick="js:setShare()">공유하기</button>
+            </footer>
 
         </section>
+        <script src="../js/data.js" charset="utf-8"></script>
+        <script src="../js/start.js" charset="utf-8"></script>
+        <script src="../js/share.js" charset="utf-8"></script>
     </div>
 
 </body>

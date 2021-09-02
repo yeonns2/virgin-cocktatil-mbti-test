@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 
 <body>
@@ -48,8 +49,32 @@
             </div>
 
             <div class="resultDesc my-4" style="line-height:160%">
-                <p>새로운 것을 좋아하는 당신은 <br>도전을 사랑하고 에너지가 넘쳐요<br><br> 인생의 재미는 노는 것에있다고 생각하며 <br>언제나 긍정적이고 센스 만점!<br> 공감 능력이 조금 부족하지만 <br>뒤끝이 없고 쿨해요<br><br> 미래,과거보단 현재에 충실한 편이며<br> 리더십있고 임기응변에 뛰어나요
-                    <br><br>오늘은 새로운 칵테일에<br> 도전하는게 어때요? 🍹
+                <b style="color:#00C8FF;">
+                    당신의 성격이야기
+                    </b>
+                <p> <br>새로운 것을 좋아하는 당신은 도전을 사랑하고 에너지가 넘쳐요. 인생의 재미는 노는 것에있다고 생각하며 언제나 긍정적이고 센스 만점! 공감 능력이 조금 부족하지만 뒤끝이 없고 쿨해요. 미래,과거보단 현재에 충실한 편이며 리더십있고 임기응변에 뛰어나요. 오늘은 새로운 칵테일에 도전하는게 어때요? 🍹
+                </p>
+                <b style="color:#00C8FF;">
+                    <br>일단 움직여!
+
+                    </b>
+
+                <p><br>인생은 즐겨야 한다! 라는 생각으로 똘똘 뭉친 당신은 삶의 문제를 해결하거나, 내가 해보고 싶은 것을 하는 데 주저하는 시간조차 굉장히 아까워합니다. 그래서인지 주위로부터 실행력이 굉장히 높다고 평가받곤 해요</p>
+                <b style="color:#00C8FF;"><br>뭘 그렇게 복잡하게 생각해?
+                    그냥 시원하게 이뤄내자구
+                    
+                </b><br>
+                <p><br>뭐든 이렇게 시원시원하게 해결해버리고, 어떤 문제나 어떤 모험도 정면으로 마주쳐서 부숴버리는 모습이 떠올라요. 직관적이고 쉬운 재료를 사용하고 시원한 얼음으로 갈아낸 스트로베리 다이키리를 볼때마다 당신이 생각나는 이유가 바로 이것이랍니다.
+                </p>
+                <b style="color:#00C8FF;"><br>빠른 것도 좋지만
+                    문제를 풀기 위해서
+                    고민할 여유도 필요하잖아
+                    
+                    
+                </b><br>
+                <p><br>당신은 당신을 가로막거나 구속하는 것을 참을 수 없어요. 주체적으로 문제를 찾고, 관습을 깨뜨려 버리고, 서스럼 없이 문제를 지적하고 행동하는 것이 당신의 스타일이니까요. 하지만 다양한 것들을 겪어온 당신은, 어떤 문제는 이렇게 급하게 접근하면 안 되겠다고 느낀 경우도 많을거에요. 다른 음료들을 보면서 다른 사람들이 어떤 특징을 가지고 있는지 쭉 구경해보는 것은 어때요?
+
+
                 </p>
                 <div class="compatibility mx-auto">
 
@@ -67,12 +92,19 @@
 
 
             <div class="buttons d-grid gap-2 my-4 mx-auto ">
-                <button type="button " class="gohome " onclick="location.href='https://www.hellocock.org/redirection/virgin/store' ">칵테일 구매하기✨</button>
-                <button type="button " class="gohome ">칵테일 만들어보기👀</button>
-                <button type="button " class="retest " onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
+                <button type="button" class="gohome" onclick="location.href='https://www.hellocock.org/redirection/virgin/store?utm_campaign=proj3_mbti&utm_source=notionstore&utm_medium=soldout_backbutton' ">칵테일 구매하기✨</button>
+                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/level/virginstrawberrydiquiri'">칵테일 만들어보기👀</button>
+                <button type="button" class="retest" onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
             </div>
 
+            <footer>
+                <button type="button" class="kakao" onclick="js:setShare()">공유하기</button>
+            </footer>
+
         </section>
+        <script src="../js/data.js" charset="utf-8"></script>
+        <script src="../js/start.js" charset="utf-8"></script>
+        <script src="../js/share.js" charset="utf-8"></script>
     </div>
 
 </body>

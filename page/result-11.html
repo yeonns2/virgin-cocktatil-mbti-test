@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 
 <body>
@@ -48,29 +49,51 @@
             </div>
 
             <div class="resultDesc my-4" style="line-height:160%">
-                <p>상상력이 풍부한 당신은 <br>이것저것 다방면으로 관심이 많아요<br><br>정해진 틀이나 반복적인 일을 <br>가장 싫어하고 문제를 잘 해결해요<br><br>여러가지를 다 잘하지만 <br>뒷심과 집중력 부족으로<br> 금방 포기하기도 해요 <br><br>다른사람들의 시선따윈 <br>신경쓰지 않는 마이웨이 스타일!
-                    <br><br> 오늘은 새로운 칵테일에 <br>도전해보는게 어때요?🍹<br>
+
+                <b style="color:#00C8FF;">
+                    당신의 성격</b>
+
+                <p><br> 상상력이 풍부한 당신은 이것저것 다방면으로 관심이 많아요. 정해진 틀이나 반복적인 일을 가장 싫어하고 문제를 잘 해결해요. 여러가지를 다 잘하지만 뒷심과 집중력 부족으로 금방 포기하기도 해요. 다른사람들의 시선따윈 신경쓰지 않는 마이웨이 스타일! 오늘은 새로운 칵테일에 도전해보는게 어때요?🍹
+
                 </p>
+                <b style="color:#00C8FF;">
+                        <br>자존심 상하는 건 용서 못 해!
+                        </b>
+
+                <p><br>당신을 칭찬해 주는 사람, 또는 솔직한 단점을 이야기하면서도 당신의 장점을 누구보다도 잘 알고 있는 사람들을 좋아하는군요. 그리고 당신이 잘 한다고 생각하는 것을 정면으로 비판하는 사람들을 정말 싫어해요.</p>
+                <b style="color:#00C8FF;"><br>반복적인 삶
+                    이제는 너무 지루해!
+                    </b><br>
+                <p><br>피나콜라다는 많은 사람들에게 사랑받아 왔어요. 하지만 오랫동안 사랑받은 칵테일도 지루함을 느끼나봐요. 오랜 시간이 지나면서 피나 콜라다라는 칵테일은 다양한 형태로 상황과 기분에 맞게 먹는 장소에 어울리게 다양하게 변형돼 왔어요. 그 중 하나가 무알콜 버전인 버진 피나 콜라다이고, 이 칵테일을 볼 때 당신이 생각났어요. 최근에 가장 인기있는 형태인 프로즌 형태를 소개할게요. 다른 칵테일들에 비해 재료가 많고 까다롭지만,
+                    손재주가 좋은 당신은 조금 복잡한 형태의 칵테일도 잘 만들 수 있을거라고 생각해요. 피나 콜라다와 함께 집에서 동남아로 떠나 볼까요?</p>
+
                 <div class="compatibility mx-auto">
 
                     <div class="item mx-auto p-3" width="100" height="100">
                         <p>최고의 궁합</p>
-                        <img src="../img/image-1.png" alt="1" width="85px" onclick="location.href='./result-1.html'">
+                        <img src="../img/image-1.png" alt="1" width="100px" onclick="location.href='./result-1.html'">
                     </div>
                     <div class="item mx-auto p-3" width="100" height="100">
                         <p>최악의 궁합</p>
-                        <img src="../img/image-5.png" alt="5" width="70px" onclick="location.href='./result-5.html'">
+                        <img src="../img/image-5.png" alt="5" width="100px" onclick="location.href='./result-5.html'">
                     </div>
                 </div>
             </div>
 
             <div class="buttons d-grid gap-2 my-4 mx-auto">
-                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/redirection/virgin/store'">칵테일 구매하기✨</button>
+                <button type="button" class="gohome" onclick="location.href ='https://www.hellocock.org/level/virginpinacolada?utm_campaign=proj3_mbti&utm_source=notionstore&utm_medium=onsale_recipebutton'">칵테일 구매하기✨</button>
                 <button type="button" class="gohome" onclick="location.href = 'https://www.hellocock.org/level/virginpinacolada?utm_campaign=proj3_mbti&utm_source=mbtiweb&utm_medium=letsmakebutton&utm_term=letsmake'">칵테일 만들어보기👀</button>
                 <button type="button" class="retest" onclick="location.href='../index.html' ">나도 테스트하기 👋</button>
             </div>
 
+            <footer>
+                <button type="button" class="kakao" onclick="js:setShare()">공유하기</button>
+            </footer>
+
         </section>
+        <script src="../js/data.js" charset="utf-8"></script>
+        <script src="../js/start.js" charset="utf-8"></script>
+        <script src="../js/share.js" charset="utf-8"></script>
     </div>
 
 </body>
