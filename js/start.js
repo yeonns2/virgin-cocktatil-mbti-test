@@ -68,7 +68,7 @@ function setResult() {
 
 function goResult() {
     qna.style.display = "none";
-    result.style.display = "block";
+
     setResult();
 }
 
