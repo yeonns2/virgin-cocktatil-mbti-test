@@ -4,14 +4,6 @@
 기획부터 설계, 디자인, 개발까지 혼자 해본 toy project 
 
 
-## Table of Contents
-
-- [Project Introduction](#Project-Introduction)
-- [Project Development Environment and Language](#Project-Development-Environment-and-Language)
-- [Demo](#Demo)
-- [Bugs and Feature Requests](#Bugs-and-Feature-Requests)
-- [About the Contributors](#About-the-Contributors)
-
 
 ## Project Introduction
 
@@ -28,7 +20,7 @@
 - html, css, javascript + Bootstrap
 
 ## Demo
-[Demo link](https://hellocock-mbti.netlify.app/)
+[나와 어울리는 버진칵테일 찾기✨](https://hellocock-mbti.netlify.app/)
 
 
 ## Bugs and Feature Requests
